@@ -1,0 +1,35 @@
+# ---- Secrets ----
+.env
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+*.egg
+
+# ---- Virtual environments ----
+venv/
+.venv/
+venv_test/
+.venv_test/
+env/
+ENV/
+
+# ---- Chroma / Vector store persistence ----
+chroma_db/
+*.sqlite3
+
+# ---- Logs ----
+*.log
+
+# ---- OS junk ----
+.DS_Store
+Thumbs.db
+
+# ---- Editor / IDE ----
+.vscode/
+.idea/
+*.swp

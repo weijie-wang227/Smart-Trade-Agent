@@ -1,0 +1,7 @@
+results/case,results/input,results/suggested_code,results/confidence,results/manual_review,results/latency_ms,results/cost_usd,results/reason
+Case 1,"Premium roasted Robusta coffee beans, vacuum sealed, 25kg.",0901.11.10,0.731,false,937,$0.0000319,High-confidence match
+Case 2,High-performance graphics processing units (GPUs) for AI data centers.,8471.30.20,0.729,false,760,$0.0000318,High-confidence match
+Case 3,Industrial 3D printer for plastic prototyping using ethylene polymers.,3901.10.12,0.792,false,765,$0.0000318,High-confidence match
+Case 4,"100% Organic cotton t-shirts, bulk packed for retail.",5208.11.00,0.759,false,758,$0.0000320,High-confidence match
+Case 5,"Portable power bank, 10,000mAh with dual USB-C ports.",8507.60.90,0.726,false,763,$0.0000324,High-confidence match
+Case 6,Wireless Bluetooth headphones with integrated solar charging panels.,8541.43.00,0.652,true,761,$0.0000314,Low dominance confidence (0.65)

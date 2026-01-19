@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+  api:
+    image: smart-trade-agent
+    container_name: smart-trade-agent-api
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    volumes:
+      - ./chroma_db:/app/chroma_db
+    restart: unless-stopped
