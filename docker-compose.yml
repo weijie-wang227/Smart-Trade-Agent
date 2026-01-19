@@ -1,8 +1,6 @@
-version: "3.9"
-
 services:
   api:
-    image: smart-trade-agent
+    build: .
     container_name: smart-trade-agent-api
     ports:
       - "8000:8000"
